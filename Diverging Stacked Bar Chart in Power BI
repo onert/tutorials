@@ -1,4 +1,7 @@
 # Diverging Stacked Bar Chart in Power BI using City Mobility data
 
-![final chart](/images/final_chart.png)
+![final chart](/tutorial images/final_chart.png)
 
+Diverging stacked bar charts are great for visualizing survey data at a glance, particularly Likert scale responses to survey questions. In the chart above, the negative responses “Not very important” and “Not at all important” are to the left of zero, and the positive responses to the right, with each bar size in proportion to the percentage of survey respondents who chose that answer.
+
+This tutorial will walk through how to create such a chart in Power BI, using open data from the [NYC Citywide Mobility Survey](https://data.cityofnewyork.us/Transportation/Citywide-Mobility-Survey-Main-Survey-2018/jpcp-ic7c) available online. I downloaded the dataset Citywide Mobility Survey – Main Survey 2018 as a csv file, as well as the Open_Data_Dictionary_Main_Survey Excel file for reference. I’ll assume some basic knowledge of Power BI, such as importing data, or how to access the Power Query Editor. 
